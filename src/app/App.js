@@ -3,7 +3,9 @@ import './App.css';
 
 function App() {
   return (
-    <h1 >Your Recipe</h1>
+    <main className="main">
+      
+    </main>
   );
 }
 
