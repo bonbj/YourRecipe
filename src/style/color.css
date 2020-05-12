@@ -1,0 +1,29 @@
+:root{
+    --orange-high: rgb(239,171,136);
+    --orange-medium: rgb(255,208,182);
+    --orange-low: rgb(255,239,229);
+
+    --gray-high: rgb(136,173,179);
+    --gray-medium: rgb(173,202,208);
+    --gray-low: rgb(209,242,247);
+
+    --purple-high: rgb(180,128,174);
+    --purple-medium: rgb(214,175,206);
+    --purple-low: rgb(254,221,250);
+    
+    --pink-low-high: rgb(236,140,141);
+    --pink-low-medium: rgb(255,195,195);
+    --pink-low-low: rgb(255,234,233);
+
+    --yellow-high: rgb(219,218,153);
+    --yellow-medium: rgb(251,251,199);
+    --yellow-low: rgb(255,255,235);
+
+    --blue-high: rgb(91,178,197);
+    --blue-medium: rgb(183,239,252);
+    --blue-low: rgb(213,248,254);
+
+    --green-high: rgb(58,153,68);
+    --green-medium: rgb(109,185,102);
+    --green-low: rgb(158,207,141);
+}
