@@ -1,11 +1,11 @@
 import React from 'react';
-import './style.css';
-import Tabs from "../../components/tabs/index";
+import './Home.css';
+
 
 const Home = () => {
     return(
         <div>
-            <Tabs />
+            <h1>Home</h1>
         </div>
     )
 }
