@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import { FaAngellist } from "react-icons/fa";
+
+import Home from "../pages/home/index";
 
 function App() {
   return (
     <main className="main">
-      <h1>Nada</h1>
-      <FaAngellist/>
+      <Home />
+      
     </main>
   );
 }
