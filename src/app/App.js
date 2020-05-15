@@ -1,12 +1,24 @@
 import React from 'react';
 import './App.css';
-import { FaAngellist } from "react-icons/fa";
+import Tabs from '../components/tabs/Tabs';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+import Home from '../pages/home/Home';
+import Profile from '../pages/profile/Profile';
+import Search from '../pages/search/Search';
+
 
 function App() {
   return (
     <main className="main">
-      <h1>Nada</h1>
-      <FaAngellist/>
+      <Router>
+        <Switch>
+          <Route path="/search"><Search /></Route>
+          <Route path="/profile"><Profile /></Route>
+          <Route path="/"><Home /></Route>
+        </Switch>
+      </Router>
+      <Tabs />
     </main>
   );
 }

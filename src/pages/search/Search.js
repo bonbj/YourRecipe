@@ -1,10 +1,12 @@
 import React from 'react';
-import './style.css';
+import './Search.css';
 
 const Search = () => {
     return(
         <div>
-            <h1>Oi</h1>
+            <h1>Search</h1>
         </div>
     )
 }
+
+export default Search;
