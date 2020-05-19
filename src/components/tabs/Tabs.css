@@ -22,3 +22,16 @@
     align-items: center;
     text-decoration: none;
 }
+
+.active-false {
+
+}
+
+.active-true {
+    background-color: var(--purple-high);
+    color: white;
+    border-radius: 50%;
+    width: 9vh;
+    height: 9vh;
+    margin: 0 auto;
+}
